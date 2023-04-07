@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.6rem;
+}
+.login-div{
+    border: 0.5px solid rgba(0, 0, 0, 0.062);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    padding: 1.5rem;
+}
+.sf{
+    /*border: 2px solid black;*/
+    text-align: center;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+.sf-name{
+    font-size: 1.5rem;
+   /* border: 2px solid rgb(222, 21, 21);*/
+}
+.email-div{ 
+   /* border: 2px solid rgb(222, 21, 21);*/
+    margin-bottom: 1rem;
+    width: 80%;
+}
+.email-div input{
+    font-size: 0.6rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.062);
+    border-radius: 4px;
+    padding: 10px;
+    width: 93%;
+}
+.email-div button{
+    width: 53%;
+    margin-top: 1rem;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: white;
+}
+.email-div button:hover{
+    background-color: rgba(0, 0, 0, 0.057);
+}
+#msg{
+    opacity: 0.0;
+}
+.otp-img{
+    height: 1rem;
+    width: auto;
+}
+.footer{ 
+    margin-top: 20vh;
+    text-align: center;
+   /* border: 2px solid rgb(71, 21, 222);*/
+}
